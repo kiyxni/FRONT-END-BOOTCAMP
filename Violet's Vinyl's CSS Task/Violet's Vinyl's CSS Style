@@ -1,0 +1,50 @@
+/* Write your CSS here - remember to add Id's or classes to the HTML file */
+
+body {
+    color: white;
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+.header {
+    font-size: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-image: url("Records.jpg");
+}
+
+.secondheader {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #ef8354;
+}
+
+.bodytext1 {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.thirdheader {
+    text-align: center;
+    background-color: #0e7c7b;
+}
+
+.fourthheader {
+    text-align: center;
+    background-color: #9c538b;
+}
+
+a:link {
+    color: #ef8354;
+}
+
+a:hover {
+    color: #9c528b;
+}
+
+.footer {
+    text-align: center;
+}
