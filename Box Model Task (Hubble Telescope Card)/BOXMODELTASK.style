@@ -1,24 +1,16 @@
-/* Fill in all the CSS rules. All the selectors you need are listed */
+/* Body  */
 
-/* CSS reset */
-
-* {
+body {
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Body  */
-
-body { 
-    
-}
-
 .card {
     width: 350px;
-    margin: auto;
+    margin: 15px;
     border-radius: 20px;
     /* 0.8 property after rgb colours is weight of the shadow */
-    box-shadow: 0 5px 12px 0 rgb(63, 63, 63, 0.2);
+    box-shadow: 0 5px 12px 0 rgba(63, 63, 63, 0.2);
 }
 
 img {
@@ -29,8 +21,8 @@ img {
 
 .card-text {
     height: 240px;
-    padding: 14px;
-    margin: 0px 15px 0px 15px;;
+    padding:  10px 30px 15px 15px;
+    margin: 0px 15px 0px 15px;
 }
 
 .category {
@@ -44,11 +36,11 @@ h2 {
     font-weight: bold;
     text-transform: capitalize;
     margin-top: 7px;
+    margin-bottom: 10px;
 }
 
 p {
     color: rgb(63, 63, 63);
     /* font size for 'p' was not included in instructions */
     font-size: 14px;
-    margin-top: 10px;
 }
