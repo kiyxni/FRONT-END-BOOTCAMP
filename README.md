@@ -6,10 +6,10 @@
        
 ### Task + Module + Date
 ___
-#### `Week 2`
-- `(17/05/2022)` **HTML Task - Contact Form** - *W2L2 - HTML FORMS / INTRODUCTION TO CSS* - **(In Class Task)** ✅
-- `(17/05/2022)` **CSS Task - Violet's Vinyls** - *W2L2 - HTML FORMS / INTRODUCTION TO CSS* - **(Homework)** ✅
-- `(19/05/2022)` **CSS Task - Hubble Telescope Card** - *W2L3 - CSS BOX MODELS* - **(Homework)** ⭕
-- `(19/05/2022)` **HTML/CSS Task -Styled Form** - *W2L3 - CSS BOX MODELS* - **(Homework)** ⭕
+#### `Week 1`
+- `(17/05/2022)` **HTML Task - Contact Form** - *W1L2 - HTML FORMS / INTRODUCTION TO CSS* - **(In Class Task)** ✅
+- `(17/05/2022)` **CSS Task - Violet's Vinyls** - *W1L2 - HTML FORMS / INTRODUCTION TO CSS* - **(Homework)** ✅
+- `(19/05/2022)` **CSS Task - Hubble Telescope Card** - *W1L3 - CSS BOX MODELS* - **(Homework)** ✅
+- `(19/05/2022)` **HTML/CSS Task -Styled Form** - *W1L3 - CSS BOX MODELS* - **(Homework)** ✅
 ---
-#### `Week 3`
+#### `Week 2`
