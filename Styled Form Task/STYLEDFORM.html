@@ -1,1 +1,37 @@
-Insert completed HTML code here
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300" />
+    <title>Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <!--contact form class was formerly ID, changed it to class-->
+      <form class="contactForm" action="">
+        <h1>Get in Touch</h1>
+        <label for="firstName">First Name</label>
+<br>
+        <input type="text" id="firstName" name="firstName" maxlength="100" />
+<br>
+        <label for="surname">Surname</label>
+<br>
+        <input type="text" id="surname" name="surname" maxlength="100" />
+<br>
+        <label for="email">Email</label>
+<br>
+        <input type="email" id="email" name="email" />
+<br>
+        <label for="message">Message</label>
+<br>
+<!--cols was formerly 35, changed it to 44 to make it fit-->
+        <textarea name="message" rows="6" cols="44"></textarea>
+
+        <input type="submit" value="Send a message" />
+      </form>
+    </div>
+  </body>
+</html>
