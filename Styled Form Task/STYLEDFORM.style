@@ -1,1 +1,72 @@
-Insert completed CSS code here
+/* task 1 done
+task 2 done
+task 3 done
+task 4 done
+task 5 done??
+task 6 done??
+task 7 done??
+task 8 done
+task 9 done
+task 10? (border style none? + ??? ) */
+
+* {
+    box-sizing: border-box;
+    border-color: rgb(243, 243, 243);
+}
+
+body {
+    background-color: #274471;
+    font-family: "Lato", sans-serif;
+}
+
+.container {
+    width: 400px;
+    background-color: rgb(243, 243, 243);
+    border-radius: 6px;
+    border-style: none;
+    border-color: rgb(243, 243, 243);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin: auto;
+}
+
+/* changed the contacform id to class to make this work */
+/* formerly padding: 25px but padding from top to 'get in touch' felt
+like it was a little too much? */
+.contactForm {
+    padding-top: 10px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+input {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 4px;
+    border-color: white;
+    border-style: none;
+}
+
+/* "message" should be a little higher than where the box is */
+input[type=submit] {
+background-color: #1ac0f3;
+color: white;
+padding-top: 14px;
+padding-bottom: 14px;
+padding-left: 20px;
+padding-right: 20px;
+cursor: pointer;
+} 
+
+input[type=submit]:hover {
+    background-color: grey;
+}
