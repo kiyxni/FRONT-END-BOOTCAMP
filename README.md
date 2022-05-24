@@ -1,5 +1,5 @@
 # 𝐅𝐑𝐎𝐍𝐓 𝐄𝐍𝐃 𝐁𝐎𝐎𝐓𝐂𝐀𝐌𝐏
-> In class tasks + Homework Assignments + Projects 
+> In class tasks + Homework Assignments + Projects  
 ---
  <div id="graph" align="center">
        <img src="https://c.tenor.com/2-82oUmUUOYAAAAC/digimon-izzy.gif" width="350"/></div>
