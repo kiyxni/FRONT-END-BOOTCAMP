@@ -1,1 +1,59 @@
-Enter CSS code here
+/* CSS reset */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body */
+
+body {
+  font-size: 1.2rem;
+}
+
+/* 
+1. Give the card-container a margin to center it <done>
+2. Set it to display flex <done>
+3. Give it a justify content property of space around <done>
+4. Finally add a flex wrap property. <done?> */
+.card-container {
+  max-width: 800px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+
+
+/* Make the card display flex 
+and change it's flex direction so that it displays vertically <done> */
+.card {
+  border: 2px solid rgb(137, 133, 143);
+  border-radius: 10px;
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+
+
+/* Use the flex shorthand syntax to give the .content
+ a flex grow of 1, a flex shrink of 1 and a flex basis of auto. <done> */
+.card .content {
+  padding: 1rem;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+
+}
+
+
+.card footer {
+  background-color: rgba(133, 131, 138, 0.2);
+  padding: 10px;
+}
