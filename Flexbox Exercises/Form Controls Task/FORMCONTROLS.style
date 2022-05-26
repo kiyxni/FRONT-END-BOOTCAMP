@@ -1,1 +1,64 @@
-Enter CSS code here
+/* CSS reset */
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Body - scroll down for instructions */
+
+section {
+  width: 90%;
+  max-width: 700px;
+  border: 1px solid #4d4e53;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+/* Add a declaration to make the wrapper to display flex <done> */
+.wrapper {
+  border: 1px solid rgb(219, 219, 219);
+  display: flex;
+
+}
+
+input {
+  border: none;
+  font-size: 1.2em;
+  padding: 10px;
+}
+
+/* Add a flex shorthand declaration to the text input 
+and the submit button.
+
+Both should have a flex shrink property of 1 and a 
+flex basis set the default value.
+
+The flex grow property for the text input should 
+be set to 2 and to 1 for the submit button. <done all> */
+
+
+input[type="text"] {
+  background-color: rgba(75, 21, 97, 0.5);
+  border-radius: 5px 0px 0px 5px;
+  flex-shrink: 1;
+  flex-basis: auto;
+  flex-grow: 2;
+
+}
+
+
+input[type="submit"] {
+  background-color: rgba(75, 21, 97, 1);
+  color: #fff;
+  border-radius: 0px 5px 5px 0px;
+  flex-shrink: 1;
+  flex-basis: auto;
+  flex-grow: 1;
+
+}
+
+
+
