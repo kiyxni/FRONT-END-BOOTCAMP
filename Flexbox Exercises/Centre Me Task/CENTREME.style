@@ -1,0 +1,27 @@
+/* CSS reset */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body */
+
+.container {
+  height: 300px;
+  width: 300px;
+  border: 1px solid black;
+  /* Write three CSS delerations here to centre the smaller div hotizontally and vertically
+ within the bigger div using flexbox */
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.centre-me {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+}
