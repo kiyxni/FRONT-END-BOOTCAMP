@@ -13,4 +13,4 @@ ___
 - `(19/05/2022)` **HTML/CSS Task -Styled Form** - *W1L3 - CSS BOX MODELS* - **(Homework)** ✅
 ---
 #### `Week 2`
-- `(24/05/2022)` **CSS Task - Flexbox Exercises** - *W2L2 - INTRODUCTION TO RESPONSIVE CSS / FLEXBOX* - **(Homework)** 
+- `(24/05/2022)` **CSS Task - Flexbox Exercises** - *W2L2 - INTRO TO RESPONSIVE CSS / FLEXBOX* - **(Homework)** ✅
