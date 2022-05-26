@@ -14,3 +14,4 @@ ___
 ---
 #### `Week 2`
 - `(24/05/2022)` **CSS Task - Flexbox Exercises** - *W2L2 - INTRO TO RESPONSIVE CSS / FLEXBOX* - **(Homework)** ✅
+- `(26/05/2022)` **CSS Task - TUTORIAL WEBSITE VIA CODERCODER** - *W2L6 - RESPONSIVE CSS EXERCISES* - **(In Class Task)** ✅
