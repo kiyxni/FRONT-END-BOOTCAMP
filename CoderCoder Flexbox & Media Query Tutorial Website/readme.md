@@ -2,6 +2,8 @@
 #### RESPONSIVE CSS EXERCISES - **(26/05/22)**
 
 ---
-`Task : Follow instruction to complete the flexbox and media query tutorial website.
-<br>
-@ https://coder-coder.com/build-flexbox-website-layout/`
+`Task : Follow instruction to complete the flexbox and media query tutorial website.`
+
+
+
+`@ https://coder-coder.com/build-flexbox-website-layout/`
