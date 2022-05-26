@@ -1,1 +1,129 @@
-Enter CSS code here
+/* CSS reset */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body - Scroll down for instructions */
+
+body {
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+article {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+section {
+  border: 1px solid rgb(212, 212, 212);
+  border-radius: 11px;
+  padding: 1rem;
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin: 1rem;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  border-radius: 11px;
+  background-color: #ffe7e7;
+  color: #d33a2c;
+  padding: 1rem 1.2rem;
+  display: block;
+  margin: 2px;
+}
+
+
+
+/* 1. Evenly Spaced Nav <done> */
+
+.evenly-spaced {
+/* Make this div into a flexbox and give it a 
+justify content of space between */
+display: flex;
+justify-content: space-between;
+}
+
+
+/************** 2. Equally distributed Nav <done> **************/
+
+.space-distributed ul {
+/* Make this div into a flexbox */
+display: flex;
+}
+
+.space-distributed li {
+  /* Give the list item a flex value of auto */
+flex: auto;
+}
+
+
+
+/************** 3. A split Nav <done> **************/
+
+.split-nav {
+/* 1. Make the split-nav display flex.
+2. Give it a margin right and left of -10 */
+display: flex;
+margin-right: -10px;
+margin-left: -10px;
+}
+.split-nav li {
+  /* Give the list item a margin right and left of 10 */
+margin-left: 10px;
+margin-right: 10px;
+
+}
+.split-nav .push-right {
+  /* Give the push right div a margin left of auto. 
+  This will give it the maxinum availible margin to the left. */
+margin-left: auto;
+
+}
+
+
+
+/************** 4. A split Nav <done> **************/
+
+.split-nav-push-left {
+/* Use flexbox to justify the content to the end of the container */
+  display: flex;
+  margin: 0 -10px;
+  justify-content: flex-end;
+}
+
+.split-nav-push-left li {
+  margin: 0 10px;
+}
+
+.split-nav-push-left .push-left {
+  margin-right: auto;
+}
+
+
+
+/* 5. A split Nav <done> */
+
+.split-nav-Centre {
+  /* Set me to display flex */
+  display: flex;
+}
+
+.centre {
+  /* Set the middle element to grow and stretch by 
+  setting flex-grow to 1 */
+  flex-grow: 1;
+}
