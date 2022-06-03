@@ -1,0 +1,106 @@
+* {
+    /*box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;*/
+    font-family: "Montserrat", sans-serif;
+    color: whitesmoke;
+}
+
+/* General Tags */
+
+body {
+    /*background-image: url('https://images4.alphacoders.com/113/thumb-1920-1132084.jpg');*/
+    background-image: url('https://images.hdqwalls.com/wallpapers/cloudy-evening-montreal-skycrapper-building-km.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #FFFFFF;
+/*bangbang*/
+    line-height: 1.5;
+    min-height: 100vh;
+    display: grid;
+
+    overflow-x: hidden;
+}
+.flex {
+    display: flex;
+    gap: var(--gap, 4rem);
+}
+
+/* Primary header */
+.logo {
+    margin: 0px; /*was 2rem*/
+}
+
+.primary-header {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mobile-nav-toggle {
+    display: none;
+}
+
+.primary-nav {
+    list-style: none;
+    padding: 43px;
+    margin: 0;
+}
+
+.primary-nav a {
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+.primary-nav a > span {
+    font-weight: 900;
+    margin-inline-end: 0.75em;
+    color: #DE5D1D;
+}
+
+.primary-nav li:hover {
+    background-color: #DE5D1D;
+    border-radius: 2.3px;
+    transition: 0.3s ease;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+@media (max-width: 35em) /*or768px*/ {
+.primary-nav {
+    position: fixed;
+    z-index: 1000;
+    inset: 0 0 0 30%;
+
+    flex-direction: column;
+    padding: 33rem 4em;
+/* HSL function below = Transparency */
+    background: hsl(0, 0%, 100% / 0.1);
+    backdrop-filter: blur(0.8rem);
+    /* animation! */
+    transform: translateX(100%);
+    transition: transform 450ms ease-out;
+    }
+
+/*JS*/
+.primary-nav[data-visible="true"] {
+    transform: translateX(0%)
+}
+
+.mobile-nav-toggle {
+    display: block;
+    position: absolute;
+    z-index: 9999;
+    background-color: transparent;
+    background: url('images/icons8-menu-50.png');
+    background-repeat: no-repeat;
+    width: 2.8rem;
+    border: 0;
+    aspect-ratio: 1;
+    top: 2rem;
+    right: 1rem; }
+}
+
+.mobile-nav-toggle[aria-expanded="true"] {
+    background-image: url("images/icons8-x-50.png");
+}
