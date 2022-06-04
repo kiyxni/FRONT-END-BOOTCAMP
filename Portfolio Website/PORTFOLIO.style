@@ -19,6 +19,7 @@ body {
     line-height: 1.5;
     min-height: 100vh;
     display: grid;
+    align-items: center;
 
     overflow-x: hidden;
 }
@@ -27,9 +28,15 @@ body {
     gap: var(--gap, 4rem);
 }
 
+/*THIS SECTION UNDERNEATH IS FOR THE LOGO AND NAVBAR (HEADER)*/
+/*THIS SECTION UNDERNEATH IS FOR THE LOGO AND NAVBAR (HEADER)*/
+/*THIS SECTION UNDERNEATH IS FOR THE LOGO AND NAVBAR (HEADER)*/
+
 /* Primary header */
 .logo {
     margin: 0px; /*was 2rem*/
+    /*added width here, but went invisible during mid size scree?
+    something must be done here to work out the logo placement.*/
 }
 
 .primary-header {
@@ -59,7 +66,7 @@ body {
 }
 
 .primary-nav li:hover {
-    background-color: #DE5D1D;
+    background-color: #DE5D1D; /*end 80 hexa transparency??*/
     border-radius: 2.3px;
     transition: 0.3s ease;
     font-size: 1rem;
@@ -89,11 +96,12 @@ body {
 
 .mobile-nav-toggle {
     display: block;
-    position: absolute;
+    position: fixed; /*from absolute, to make logo stay fixated top right on mobile*/
     z-index: 9999;
     background-color: transparent;
     background: url('images/icons8-menu-50.png');
     background-repeat: no-repeat;
+    justify-content: center; /*added in, to keep hamburger icon top right on mobile and visible*/
     width: 2.8rem;
     border: 0;
     aspect-ratio: 1;
@@ -104,3 +112,88 @@ body {
 .mobile-nav-toggle[aria-expanded="true"] {
     background-image: url("images/icons8-x-50.png");
 }
+
+/*THIS SECTION UNDERNEATH IS FOR MY PROFILE SECTION (ABOUT ME)*/
+/*THIS SECTION UNDERNEATH IS FOR MY PROFILE SECTION (ABOUT ME)*/
+/*THIS SECTION UNDERNEATH IS FOR MY PROFILE SECTION (ABOUT ME)*/
+
+.profile-section{
+
+    background: none; /*add img with norepeat left for image bg*/
+    background-size: 55%;
+    /*background-color: #FFFFFF10; /* add 15 hexa for transparency>>
+    remove the comment above line to add transparent panel bg*/
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.inner-container {
+    width: 55%;
+    float: right;
+    background-color: #DE5D1D99; /*the 90 at end denotes transparency HEXA*/
+    padding: 150px;
+}
+
+.inner-container h1{ /*where it says profile/about me*/
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.text { /*paragraph underneath 'profile' */
+    font-size: 16px;
+    color: white;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+@media screen and (max-width:1200px) {
+    .inner-container {
+        padding: 80px
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .profile-section {
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+
+    
+    .inner-container {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .profile-section {
+        padding: 0;
+    }
+    
+    .inner-container {
+        padding: 60px;
+    }
+
+    /* need to format the skills section when phone is in mobile disp>>
+    .skills {
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-between;
+        text-align: justify;
+    <<maybe word break and width??????>>
+    }*/
+}
+
+/*THIS SECTION UNDERNEATH IS FOR MY PROJECTS SECTION (PROJECTS)*/
+/*THIS SECTION UNDERNEATH IS FOR MY PROJECTS SECTION (PROJECTS)*/
+/*THIS SECTION UNDERNEATH IS FOR MY PROJECTS SECTION (PROJECTS)*/
+
+
